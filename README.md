@@ -5,7 +5,7 @@ BepInEx 5 mod for Survival: Fountain of Youth. Multiplies the weight limit of st
 ## Install
 1. Install BepInEx 5.4.x (Mono, x64) into the game folder.
 2. Download `ChestWeight.dll` from the Releases page and put it in `BepInEx/plugins`.
-3. Launch the game once. Edit `BepInEx/config/local.chestweight.cfg` to change `ChestMultiplier`.
+3. Launch the game once. Edit `BepInEx/config/wmj.chestweight.cfg` to change `ChestMultiplier`.
 
 Tested on game version: (add yours)
 

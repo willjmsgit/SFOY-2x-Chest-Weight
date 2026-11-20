@@ -4,7 +4,7 @@ using HarmonyLib;
 using Model;
 using Model.Entities;
 
-[BepInPlugin("local.chestweight", "ChestWeight", "1.0.0")]
+[BepInPlugin("wmj.sfoy.chestweight", "ChestWeight", "1.0.0")]
 public class Plugin : BaseUnityPlugin
 {
     public static ConfigEntry<float> Multiplier;
@@ -12,7 +12,7 @@ public class Plugin : BaseUnityPlugin
     void Awake()
     {
         Multiplier = Config.Bind("General", "ChestMultiplier", 2f, "Weight limit multiplier for chests");
-        new Harmony("local.chestweight").PatchAll();
+        new Harmony("wmj.sfoy.chestweight").PatchAll();
     }
 }
 
