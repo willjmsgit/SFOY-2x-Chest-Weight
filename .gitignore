@@ -1,4 +1,6 @@
 bin/
 obj/
 *.dll
-*.zip*.zip
+*.zip
+banner.png
+logo.png
